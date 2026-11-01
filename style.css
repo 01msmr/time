@@ -1,0 +1,25 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;          /* kein Scrollen */
+  overscroll-behavior: none; /* kein iOS Bounce */
+  background: #646464;       /* Statusbar-Farbe bei black-translucent */
+  touch-action: none;        /* zusätzlich Scroll/Zoom blockieren */
+}
+ 
+main {
+  width: 100%;
+  height: 100%;
+}
+ 
+canvas {
+  display: block;
+}
+ 
